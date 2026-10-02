@@ -16,7 +16,7 @@ void main() { //hi
     Sneaker sandals = new Sneaker("Sandals", "Basic", 1, 0,
             true, "Beige", 0);
     ArrayList<Sneaker> playerCollection = new ArrayList<>();
-    boolean running = true; //add another comment
+    boolean runningYay = true; //add another comment
     Scanner Wednesday = new Scanner(System.in);
     Collector Graham = new Collector("Graham", 0, none, 1,
             1, 1, false, new ArrayList<>());
@@ -81,7 +81,7 @@ void main() { //hi
             100, 1, false, playerCollection);
     IO.println("Great, let's begin!");
     IO.println(player);
-    while (running) {
+    while (runningYay) {
         IO.println("""
                 1) Show stats
                 2) Go to hospital
@@ -334,12 +334,12 @@ void main() { //hi
         } else if (choice == 10) {
             IO.println(player.getName() + " was tired of life");
             player.setDead(true);
-            running = false;
+            runningYay = false;
         } else {
             IO.println("Invalid choice!");
         }
         if (player.getDead()) {
-            running = false;
+            runningYay = false;
         }
     }
     IO.println("====GAME OVER====");
