@@ -18,8 +18,8 @@ void main() { //hi
     ArrayList<Sneaker> playerCollection = new ArrayList<>();
     boolean runningYay = true; //add another comment
     Scanner Wednesday = new Scanner(System.in);
-    Collector Graham = new Collector("Graham", 0, none, 1,
-            1, 1, false, new ArrayList<>());
+    Collector Graham = new Collector("Graham", 200, airShips, 100,
+            100, 405, false, new ArrayList<>());
     botsAlive.add(Graham);
     Collector Arnold = new Collector("Arnold", 100, none, 100,
             100, 45, false, new ArrayList<>());
