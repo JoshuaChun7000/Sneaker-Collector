@@ -1,4 +1,4 @@
-void main() {
+void main() { //hi
     ArrayList<Collector> botsAlive = new ArrayList<>();
     ArrayList<Sneaker> sneakerStore = getSneakers();
     Sneaker none = new Sneaker("None", "", 0, 0,
@@ -16,7 +16,7 @@ void main() {
     Sneaker sandals = new Sneaker("Sandals", "Basic", 1, 0,
             true, "Beige", 0);
     ArrayList<Sneaker> playerCollection = new ArrayList<>();
-    boolean running = true;
+    boolean running = true; //add another comment
     Scanner Wednesday = new Scanner(System.in);
     Collector Graham = new Collector("Graham", 0, none, 1,
             1, 1, false, new ArrayList<>());
